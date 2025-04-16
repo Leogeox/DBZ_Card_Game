@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Votre sélection de cartes Undertale favorites : suivez, admirez et complétez votre deck parfait.">
+    <title>Marvel Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/icons/favicon.png">
+</head>
+
+<body class="main_bg" id="body">
+    <header class="header">
+        <div class="container">
+
+            <img src="img/icons/menu.svg" id="menu" alt="">
+            <div class="sidenav">
+                <img src="img/icons/close.svg" id="closeside" alt="">
+                <nav class="sidenav_menu">
+                    <ul class="inside_sidenav">
+                        <li>
+                            <a href="#"><img src="img/icons/tiktok.jpg" class="size_sidenav" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/icons/instagram.jpg" class="size_sidenav" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/icons/X.jpg" class="size_sidenav" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icons/reddit.jpg" class="size_sidenav" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="account_container">
+                <ul>
+                    <li>
+                        <a href="log-in.html"><img src="img/icons/account.svg" class="size_icon" alt="Account"></a>
+                    </li>
+                    <li class="header_account">
+                        <a href="log-in.html">Log In | Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="marvel.tcg.html"><img src="img/icons/logo.png" id="logo" alt="Icon du logo"></a>
+
+            <div class="search_container">
+                <ul>
+                    <li>
+                        <a href=""><img src="img/icons/search.svg" class="size_icon" alt=""></a>
+                    </li>
+                    <li>
+                        <img src="img/icons/darkmode.svg" class="size_icon" id="dmode" alt="">
+                    </li>
+                </ul>  
+            </div>
+        </div> 
+    </header>
+
+    <main>
+        <section>
+            <div class="top_text">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav_text tab_1 tab_active">Your boosters</a>
+                            <div class="content tab1">
+                                <h1 class="tab_title">Boosters</h1>
+                                    <div class="tabs_container">
+                                        <div class="inside_tab">
+                                            <a href="avengers-booster.html"><img src="img/backgrounds/ac0f330f-e148-491e-871f-f1d3dac80053.jpg" alt=""></a>
+                                            <p>Avengers</p>
+                                        </div>
+                                        <div class="inside_tab">
+                                            <a href="justice-league-booster.html"><img src="img/backgrounds/ac0f330f-e148-491e-871f-f1d3dac80053.jpg" alt=""></a>
+                                            <p>Justice League</p>
+                                        </div>
+                                        <div class="inside_tab">
+                                            <a href="xmen-booster.html"><img src="img/backgrounds/ac0f330f-e148-491e-871f-f1d3dac80053.jpg" alt=""></a>
+                                            <p>X Men</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="cards.php" class="nav_text">every Cards</a>
+                            </li>
+                        <li>
+                            <a href="cards.php" class="nav_text tab_2" >??</a>
+                            <div class="content tab2">
+                                <h1 class="tab_title"></h1>
+                                <div class="tabs_container">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <img class="img" src="img/backgrounds/dragon.jpg" alt="">
+
+        <section>
+            <div class="openbooster_container">
+                <img class="booster " src="img/boosters/booster 1.png" alt="">
+            </div>
+        </section>
+
+        <section class="container"> <!-- booster -->
+            <div class="cards-booster boosternone">
+                <div class="card">
+                    <img src="img/cards/0e2c3b11-cd0e-45e3-8267-2fb9a513365e.jpg" alt="">        
+                </div>
+                <div class="card">
+                    <img src="img/cards/0e2c3b11-cd0e-45e3-8267-2fb9a513365e.jpg" alt="">        
+                </div>
+                <div class="card">
+                    <img src="img/cards/0e2c3b11-cd0e-45e3-8267-2fb9a513365e.jpg" alt="">        
+                </div>
+                <div class="card">
+                    <img src="img/cards/0e2c3b11-cd0e-45e3-8267-2fb9a513365e.jpg" alt="">        
+                </div>
+                <img src="img/icons/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"  class="closebooster" alt="Fermeture de page">
+                <div class="card">
+                    <img src="img/cards/0e2c3b11-cd0e-45e3-8267-2fb9a513365e.jpg" alt="">        
+                </div>
+            </div>
+        </section>
+
+        <div class="trade_container">
+            <img class="trade" src="img/icons/share.svg" alt="Trading cards">
+        </div>
+
+        <div class="none_trade" id="interaction">
+            <p>Trade Center</p>
+            <form action="">
+                <p> Would like to trade with</p>
+                <select name="friend" id="frient_select">
+                    <option value="">--Please choose a friend--</option>
+                    <option value="dog">friend 1</option>
+                    <option value="cat">friend 2</option>
+                </select>
+                <p>Trading card</p>
+                <select name="cardToGive" id="card_to_give">
+                    <option value="">--Please choose a card--</option>
+                    <option value="dog">Goku</option>
+                    <option value="cat">Vegeta</option>
+                    <option value="dog">Chichi</option>
+                    <option value="cat">Gohan</option>
+                </select>
+                <p>And would like to have</p>
+                <select name="cardToGet" id="card_to_get">
+                    <option value="">--Please choose a card--</option>
+                    <option value="dog">Goku</option>
+                    <option value="cat">Vegeta</option>
+                    <option value="dog">Chichi</option>
+                    <option value="cat">Gohan</option>
+                </select>
+            </form>
+            <button id="trade_finish">Send</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_main">
+            <a href="marvel.tcg.html"><img src="img/icons/logo.png" class="footer_logo" alt=""></a>
+        </div>
+
+        <nav class="footer_end">
+            <ul>
+                <li class="footer_text">
+                    Terms of Use
+                </li>
+                <li class="footer_text">
+                    Inetrest-Based Ads
+                </li>
+                <li class="footer_text">
+                    EU Privacy Rights
+                </li>
+                <li class="footer_text">
+                    Coockie Policy
+                </li>
+                <li class="footer_text">
+                    License Agreement
+                </li>
+                <li class="footer_text">
+                    ©2025 MARVELTCG
+                </li>
+            </ul>
+        </nav>        
+    </footer>
+
+    
+    <script src="booster.js"></script>
+</body>
+</html>

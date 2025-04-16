@@ -1,0 +1,159 @@
+.background {
+    background-image: url(../img/backgrounds/dragon-ball-z-logo-i8boc3qr4hou16d5.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.connection {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+#logo_account {
+    width: 200px;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 11rem;
+}
+
+#form {
+    padding: 5rem;
+    background-color: rgba(255, 255, 255, 0.651);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    width: 36.5rem;
+    height: 35rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.enter {
+    height: 3rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    border-radius: 5px;
+    border: 0px;
+    color: var(--black);
+    background-color: var(--lightlight-grey);
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.login {
+    cursor: pointer;
+    height: 11%;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    width: 100%;
+    background-color: var(--orange);
+    border-radius: 2rem;
+    border: 0px;
+    margin-top: 3rem;
+}
+
+.login:hover {
+    background-color: var(--dark-orange);
+}
+
+h1 {
+    font: 600 2rem / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    color: var(--black);
+}
+
+.form_txt {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 19px;
+}
+
+.signup {
+    cursor: pointer;
+    height: 11%;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 2rem;
+    border: 0px;
+    margin-top: 2rem;
+}
+
+.signup:hover {
+    background-color: var(--dark-blue);
+}
+
+.border {
+    border-bottom: 1px solid var(--light-grey);
+    margin-top: 2.5rem;
+}
+
+.form_info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form_information {
+    margin: 1rem;
+    margin-top: 2.5rem;
+    font: 400 15px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+
+.form_info a {
+    color: var(--black);
+}
+
+.radio1 {
+    cursor: pointer;
+    margin: 2.5%
+}
+
+label {
+    margin-left: 5%;
+}
+
+.message-error {
+    border: 1px solid rgb(155, 44, 44);
+    color: rgb(210, 61, 61);
+    background-color: rgb(210, 61, 61);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+    transition: 0.5s;
+}
+
+.message-success {
+    border: 1px solid rgb(70, 157, 53);
+    color: rgb(80, 181, 60);
+    background-color: rgb(80, 181, 60);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+    transition: 0.5s;
+}
+
+.message-error .visible {
+    display: block;
+}
+
+
+.invalid {
+    border: 1px solid  rgb(155, 44, 44);
+    background-color: rgb(232, 67, 67);
+    transition: 0.5s;
+}
+
+
+.success {
+    border: 1px solid  rgba(113, 212, 0, 0.4);
+    background-color: rgb(103, 189, 4);
+    transition: 0.5s;
+}

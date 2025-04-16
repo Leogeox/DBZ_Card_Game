@@ -1,0 +1,60 @@
+.booster_container {
+    background-color: var(--white);
+    margin: -35px auto 0;
+    display: flex;
+    justify-content: center;
+    width: 78%;
+}
+
+.openbooster_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.booster {
+    width: 20%;
+    margin: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    transition: 0.3s;
+}
+
+.booster:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.boosternone {
+    display: none;
+}
+
+.boostershow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -51rem;
+    width: 100%;
+    background-color: rgba(255, 254, 254, 0.479);
+    transition: 0.3s;
+    z-index: 2; 
+    backdrop-filter: blur(10px);
+}
+
+.cards-booster {
+    cursor: pointer;
+}
+
+.closebooster {
+    margin-top: 1rem;
+    width: 3%;
+    height: 5.5%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebooster:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
