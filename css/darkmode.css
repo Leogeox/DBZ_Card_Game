@@ -1,0 +1,91 @@
+.darkmode {
+    transition: 0.3s;
+}
+
+.darkmode .main_bg {
+    transition: 0.3s;
+    background-image: url(../img/backgrounds/bg-darkmode.png);
+}
+
+.darkmode .header {
+    background-color: var(--grey);
+    transition: 0.3s;
+}
+
+.darkmode .sidenav {
+    background-color: var(--dark-grey);
+    transition: 0.5s;
+}
+
+.darkmode .sideopen {
+    background-color: var(--dark-grey);
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    transition: 0.5s;
+}
+
+.darkmode .size_icon {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode #closeside {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode #menu {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode .header_account a {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode .top_text {
+    background-color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode .nav_text {
+    color: var(--black);
+    transition: 0.3s;
+}
+
+.darkmode .active {
+    background-color: var(--grey);
+    transition: 0.3s;
+}
+
+.darkmode .tab_title {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode .filters {
+    background-color: var(--dark-grey);
+    transition: 0.3s;
+}
+
+.darkmode .inside_tab {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode .interact {
+    background-color: var(--dark-grey);
+    transition: 0.3s;
+}
+
+.darkmode .interact_form  {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.darkmode .trade_title {
+    color: var(--white);
+    transition: 0.3s;
+}

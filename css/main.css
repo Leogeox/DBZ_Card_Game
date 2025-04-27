@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_bg {
+    transition: 0.3s;
+    background-image: url(../img/backgrounds/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font: 400 15px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.trade_container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    margin-bottom: 2rem;
+    width: 10%;
+}
+
+.trade {
+    width: 55%;
+    border-radius: 3rem;
+    transition: 0.3s;
+}
+
+.trade:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.none_trade {
+    display: none;
+}
+
+.trade_title {
+    font: 500 25px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    margin: 1rem
+}
+
+.interact_form {
+    display: flex;
+    margin-top: 1.5rem;
+    font: 400 14px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    margin-left: 1rem;
+}
+
+.interact_form select {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.interact {
+    z-index: 2;
+    width: 48%;
+    height: 19%;
+    background-color: var(--orange);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-duration: 0.5s;
+    animation-name: fade-in;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.body_blur {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+    backdrop-filter: blur(5px);
+    z-index: 0;
+}
+
+
+#trade_finish {
+    position: fixed;
+    margin: 1.2rem;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
