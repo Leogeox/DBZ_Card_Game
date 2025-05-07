@@ -104,7 +104,6 @@
 }
 
 .card img {
-    background-color: var(--white);
     width: 265px;
     height: 325px;
     object-fit: contain;
@@ -116,7 +115,7 @@
 }
 
 .card p {
-    background-color: var(--white);
+    color: var(--white);
     width: 93%;
     height: 17.5px;
     margin-left: 0.65rem;
@@ -124,10 +123,11 @@
 }
 
 .fav {
-    background-image: url(../img/icons/fav.png);
+    background-image: url('../img/icons/fav.png');
     cursor: pointer;
     transition: 0.3s;
-    object-fit: contain;
+    z-index: 2;
+    float: right;
 }
 
 .fav:hover {

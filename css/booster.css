@@ -47,6 +47,7 @@
 }
 
 .closebooster {
+    background-image: url(img/icons/close.svg);
     margin-top: 1rem;
     width: 3%;
     height: 5.5%;

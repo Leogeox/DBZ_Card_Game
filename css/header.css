@@ -20,6 +20,7 @@
     height: 120px;
     -webkit-font-smoothing: antialiased;
     transition: 0.3s;
+    width: 100%;
 }
 
 #logo {
@@ -38,6 +39,7 @@
     transition: 0.3s;
     cursor: pointer;
     color: var(--black);
+    margin-top: 0.5rem;
 }
 
 #menu:hover {

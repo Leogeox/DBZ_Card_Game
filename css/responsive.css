@@ -1,30 +1,24 @@
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 50px) and (max-width: 81px) {
     
-    #body {
-        width: 102%;
-    }
-
     .header {
-        width: 100%;
-        height: 100px;
-    }
-
-    #menu {
-        margin-right: 1rem;
-    }
-
-    .account_container {
-        margin-left: 1rem;
-        margin-right: 1.5rem;
+        height: 50px;
     }
 
     #logo {
-        margin-right: 2rem;
-        width: 150px;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        width: 30px;
     }
 
-    .search_container {
-        margin-right: 3rem;
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-top: -1.5rem;
+        margin-left: 0.1rem;
+        margin-right: 0rem;
     }
 
     .header_account {
@@ -32,7 +26,1053 @@
     }
 
     .active {
-        height: 85%;
+        height: 18%;
+        margin-top: -1.3rem;
+    }
+
+    .size_icon {
+        width: 5px;
+        margin-right: 0rem;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: -1.5rem;
+    }
+
+    .top_text {
+        height: 1rem;
+    }
+
+    .nav_text {
+        font-size: 2.3px;
+        padding: 0.1rem;
+        margin-top: -1rem;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        font-size: 2px;
+        margin-top: 0.1rem;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #reset_btn {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        width: 80%;
+        font-size: 1.5px;
+        margin-top: 0.6rem;
+    }
+
+    .containerBottom {
+        display: block;
+    }
+
+    .card img {
+        width: 50px;
+        height: 65px;
+    }
+
+    .card {
+        width: 90px;
+        height: 95px;
+        margin: 15px;
+    }
+
+    .card p {
+        width: 95%;
+        font-size: 3px;
+        height: 5px;
+        margin-left: 0.1rem;
+    }
+
+    .tab_title {
+        font-size: 0.5rem;
+        margin-top: -0.1rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+        margin: 0rem;
+    }
+
+    .booster {
+        width: 80%;
+        height: 90%;
+    }
+
+    .boostershow {
+        margin-top: -25.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    #logo_account {
+        width: 150px;
+        margin-left: 11rem;
+    }
+
+    #form {
+        width: 13rem;
+        height: 42rem;
+        margin-left: 9rem;
+        padding: 1rem;
+    }
+
+    .enter {
+        width: 100px;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 55%;
+        height: 11%;
+        margin: 1rem;
+        margin-left: 0.7rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 80px) and (max-width: 122px) {
+    
+    .header {
+        height: 50px;
+    }
+
+    #logo {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        width: 25px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-top: -1.5rem;
+        margin-left: 0.8rem;
+        margin-right: 0rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .active {
+        height: 18%;
+        margin-top: 0rem;
+    }
+
+    .size_icon {
+        width: 3.5px;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0.3rem;
+        margin-top: -1.5rem;
+    }
+
+    .top_text {
+        height: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav_text {
+        font-size: 3px;
+        padding: 0.2rem;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        font-size: 3px;
+        margin-top: 0.1rem;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font-size: 3px;
+        margin-top: 0.6rem;
+    }
+
+    .containerBottom {
+        display: block;
+    }
+
+    .card img {
+        width: 50px;
+        height: 55px;
+    }
+
+    .card {
+        width: 90px;
+        height: 80px;
+        margin: 20px;
+    }
+
+    .card p {
+        width: 95%;
+        font-size: 3px;
+        height: 5px;
+        margin-left: 0.1rem;
+    }
+
+    .tab_title {
+        font-size: 0.5rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+        margin: 0.1rem;
+    }
+
+    .booster {
+        width: 50%;
+        height: 90%;
+    }
+
+    .boostershow {
+        margin-top: -30.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    #logo_account {
+        margin-left: 19rem;
+    }
+
+    #form {
+        width: 20rem;
+        height: 42rem;
+        margin-left: 15rem;
+    }
+
+    .enter {
+        width: 100px;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 55%;
+        height: 15%;
+        margin: 1rem;
+        margin-left: 1.2rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 122px) and (max-width: 161px) {
+    
+    .header {
+        height: 60px;
+    }
+
+    #logo {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        width: 50px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-top: -1rem;
+        margin-left: 0.8rem;
+        margin-right: 0rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .active {
+        height: 18%;
+        margin-top: 0rem;
+    }
+
+    .size_icon {
+        width: 6px;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0.3rem;
+        margin-top: -1rem;
+    }
+
+    .top_text {
+        height: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav_text {
+        font-size: 3px;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        font-size: 5px;
+        margin-top: 0.1rem;
+    }
+
+    #search {
+        margin-left: 0.4rem;
+        height: 0.8rem;
+        margin-top: 0.8rem;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font-size: 3px;
+        margin-top: 0.8rem;
+    }
+
+    .containerBottom {
+        display: block;
+    }
+
+    .card img {
+        width: 100px;
+        height: 130px;
+    }
+
+    .card {
+        width: 100px;
+        height: 180px;
+    }
+
+    .card p {
+        width: 95%;
+        font-size: 8px;
+        height: 13px;
+        margin-left: 0.2rem;
+    }
+
+    .tab_title {
+        font-size: 1rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    .booster {
+        width: 50%;
+        height: 90%;
+    }
+
+    .boostershow {
+        margin-top: -30.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    #logo_account {
+        margin-left: 30rem;
+    }
+
+    #form {
+        width: 25rem;
+        height: 36rem;
+        margin-left: 23.5rem;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 62%;
+        height: 20%;
+        margin: 1rem;
+        margin-left: 1.8rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 160px) and (max-width: 230px) {
+    
+    .header {
+        height: 90px;
+    }
+
+    #logo {
+        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        width: 70px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-left: 0.7rem;
+        margin-right: 0rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .active {
+        height: 30%;
+        margin-top: 0.5rem;
+    }
+
+    .size_icon {
+        width: 10px;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0.51rem;
+    }
+
+    .top_text {
+        height: 2rem;
+    }
+
+    .nav_text {
+        font-size: 7px;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.3rem;
+        margin-right: 0.1rem;
+        font-size: 6px;
+        margin-top: 0.3rem;
+    }
+
+    #search {
+        margin-left: 0.5rem;
+        height: 1rem;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font-size: 6px;
+        margin-top: 0.8rem;
+    }
+
+    .containerBottom {
+        display: block;
+    }
+
+    .card img {
+        width: 130px;
+        height: 150px;
+    }
+
+    .card {
+        width: 140px;
+        height: 205px;
+    }
+
+    .card p {
+        width: 95%;
+        font-size: 8px;
+        height: 13px;
+        margin-left: 0.2rem;
+    }
+
+    .tab_title {
+        font-size: 1.5rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+        margin: 0.8rem ;
+    }
+
+    .booster {
+        width: 50%;
+        height: 90%;
+    }
+
+    .boostershow {
+        margin-top: -30.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    #logo_account {
+        margin-left: 33rem;
+    }
+
+    #form {
+        width: 25rem;
+        height: 36rem;
+        margin-left: 26.5rem;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 62%;
+        height: 30%;
+        margin: 1rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 230px) and (max-width: 264px) {
+    
+
+    #logo {
+        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        width: 110px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-left: 0.7rem;
+        margin-right: 0rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .active {
+        height: 30%;
+    }
+
+    .size_icon {
+        width: 20px;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0.5rem;
+    }
+
+    .nav_text {
+        font-size: 12px;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.3rem;
+        margin-right: 0.1rem;
+        font-size: 10px;
+        margin-top: 0.3rem;
+    }
+
+    #search {
+        margin-left: 0.5rem;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font-size: 10px;
+        margin-top: 0.8rem;
+    }
+
+    .containerBottom {
+        display: block;
+    }
+
+    .card img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .card {
+        width: 200px;
+        height: 265px;
+    }
+
+    .card p {
+        width: 95%;
+        font-size: 10px;
+        height: 15px;
+        margin-left: 0.3rem;
+    }
+
+    .tab_title {
+        font-size: 1.5rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+    }
+
+    .booster {
+        width: 50%;
+        height: 90%;
+    }
+
+    .boostershow {
+        margin-top: -30.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    #logo_account {
+        margin-left: 29rem;
+    }
+
+    #form {
+        width: 25rem;
+        height: 36rem;
+        margin-left: 22.5rem;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 60%;
+        height: 45%;
+        margin-left: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 263px) and (max-width: 289px) {
+    
+
+    #logo {
+        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        width: 110px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-left: 0.7rem;
+        margin-right: 0rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .active {
+        height: 30%;
+    }
+
+    .size_icon {
+        width: 20px;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0.5rem;
+    }
+
+    .nav_text {
+        font-size: 12px;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.3rem;
+        margin-right: 0.1rem;
+        font-size: 10px;
+        margin-top: 0.3rem;
+    }
+
+    #search {
+        margin-left: 0.5rem;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font-size: 10px;
+        margin-top: 0.8rem;
+    }
+
+    .card img {
+        width: 170px;
+        height: 205px;
+    }
+
+    .card {
+        width: 200px;
+        height: 265px;
+    }
+
+    .card p {
+        width: 90%;
+        font-size: 10px;
+        height: 15px;
+        margin-left: 0.65rem;
+    }
+
+    .tab_title {
+        font-size: 1.5rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+    }
+
+    .booster {
+        width: 50%;
+    }
+
+    .boostershow {
+        margin-top: -31.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    #logo_account {
+        margin-left: 29rem;
+    }
+
+    #form {
+        width: 25rem;
+        height: 36rem;
+        margin-left: 22.5rem;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 50%;
+        height: 40%;
+        margin-left: 4rem;
+    }
+
+}
+
+@media screen and (min-width: 290px) and (max-width: 426px) {
+    
+
+    #logo {
+        margin-right: 0rem;
+        margin-top: 2rem;
+        width: 130px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .size_icon {
+        width: 25px;
+    }
+
+    .inside_sidenav {
+        margin-top: 3rem;
+    }
+
+    .size_sidenav {
+        width: 40px;
+    }
+
+    .closeside {
+        width: 30px;
+    }
+
+    .nav_text {
+        font-size: 15px;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    .txt_filters {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0.3rem;
+        margin-right: 0.1rem;
+        font-size: 10px;
+    }
+
+    .filterchoosen {
+        width: 50%;
+        text-align: center;
+        border-radius: 0.5rem;
+    }
+
+    .account_container {
+        margin-left: 1.5rem;
+        margin-right: 0.7rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .active {
+        height: 40%;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+        margin-left: 0.5rem;
+    }
+
+    #search {
+        margin-left: 0.5rem;
+        padding: 0rem;
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .tab_title {
+        font-size: 1.5rem;
+    }
+
+    .inside_tab {
+        width: 100%;
+    }
+
+    #reset_btn {
+        margin-right: 0.2rem;
+        margin-left: 0rem;
+        width: 90%;
+        height: 100%;
+        margin-top: 0rem;
+        font-size: 10px;
+    }
+
+    #reset_btn:hover {
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    .interact {
+        width: 80%;
+    }
+
+    .trade_title {
+        font-size: 15px;
+    }
+
+    .card img {
+        width: 180px;
+        height: 205px;
+    }
+
+    .card {
+        width: 200px;
+        height: 265px;
+    }
+
+    .card p {
+        width: 90%;
+        font-size: 10px;
+        height: 15px;
+        margin-left: 0.7rem;
+    }
+
+    #logo_account {
+        margin-left: 21rem;
+    }
+
+    #form {
+        width: 25rem;
+        height: 35rem;
+        margin-left: 15rem;
+    }
+
+    .booster {
+        width: 50%;
+    }
+
+    .boostershow {
+        margin-top: -40rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_logo {
+        margin-left: 4rem;
+        text-align: center;
+    }
+
+    .footer_text {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 849px) {
+    
+    .header {
+        width: 100%;
+        height: 100px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-left: 0rem;
+        margin-right: 1.5rem;
+    }
+
+    #logo {
+        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 150px;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+    }
+
+    #search {
+        margin-left: 0rem;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font: 400 12px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    }
+
+    .header_account {
+        display: none;
     }
 
     .inside_tab {
@@ -49,12 +1089,12 @@
     }
 
     .booster {
-        width: 60%;
+        width: 30%;
         margin: 3rem;
     }
 
     .boostershow {
-        margin-top: -35.5rem;
+        margin-top: -32.5rem;
         display: flex;
         justify-content: center;
     }
@@ -85,7 +1125,8 @@
 
     .txt_filters {
         margin-left: 0rem;
-        font-size: 11px;
+        margin-right: 0rem;
+        font-size: 14px;
         width: 20%;
         text-align: center;
     }
@@ -111,13 +1152,13 @@
     }
 
     #logo_account {
-        margin-left: 13rem;
+        margin-left: 9rem;
     }
 
     #form {
         width: 29rem;
         height: 35rem;
-        margin-left: 4rem;
+        margin-left: 0rem;
     }
 
     footer {
@@ -143,6 +1184,258 @@
         margin-top: 1rem;
         margin-left: 0rem;
         font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+    
+    #logo {
+        margin-right: 7rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .account_container {
+        margin-left: 0rem;
+        margin-right: 7rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .search_container {
+        margin-right: 0rem;
+    }
+
+    #search {
+        margin-left: 0rem;
+        width: 80%;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .inside_tab {
+        width: 12%;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    .boostershow {
+        margin-top: -39rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    footer {
+        height: 15rem;
+    }
+
+    .footer_logo {
+        width: 210px;
+    }
+    
+    .footer_end {
+        margin-top: 1rem;
+    }
+
+    .footer_end ul {
+        display: block;
+    }
+
+    .footer_text {
+        margin-top: 1rem;
+        margin-left: 0rem;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1245px) {
+    
+    #logo {
+        margin-right: 5rem;
+    }
+
+    #menu {
+        margin-right: 11rem;
+    }
+
+    .account_container {
+        margin-left: 0rem;
+        margin-right: 5rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .search_container {
+        margin-right: 13rem;
+    }
+
+    #search {
+        margin-left: 3rem;
+    }
+
+    #reset_btn {
+        margin-right: 2rem;
+        margin-left: 0rem;
+        width: 80%;
+    }   
+
+    .inside_tab {
+        width: 11%;
+    }   
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    .boostershow {
+        margin-top: -45.1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        height: 15rem;
+    }
+
+    .footer_end {
+        margin-top: 1rem;
+    }
+
+    .footer_end ul {
+        display: block;
+    }
+
+    .footer_text {
+        margin-top: 1rem;
+        margin-left: 0rem;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width: 1244px) and (max-width: 1369px) {
+    
+    #logo {
+        margin-right: 5rem;
+    }
+
+    #menu {
+        margin-right: 18rem;
+    }
+
+    .account_container {
+        margin-left: 0rem;
+        margin-right: 5rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .search_container {
+        margin-right: 20rem;
+    }
+
+    #search {
+        margin-left: 5rem;
+        width: 150%;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 13em;
+    }
+    
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+    
+    .boostershow {
+        margin-top: -47rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1510px) {
+    
+    #logo {
+        margin-right: 11rem;
+    }
+
+    #menu {
+        margin-right: 18rem;
+    }
+
+    .account_container {
+        margin-left: 0rem;
+        margin-right: 10rem;
+    }
+
+    .header_account {
+        display: none;
+    }
+
+    .search_container {
+        margin-right: 18rem;
+    }
+
+    #search {
+        margin-left: 8rem;
+        width: 140%;
+    }
+
+    #reset_btn {
+        margin-right: 0rem;
+        margin-left: 17rem;
+    }
+
+    .trade_container {
+        width: 100%;
+    }
+
+    .trade {
+        width: 100%;
+    }
+
+    .boostershow {
+        margin-top: -50.5rem;
+        display: flex;
+        justify-content: center;
     }
     
 }

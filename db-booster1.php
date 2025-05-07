@@ -7,16 +7,14 @@
     <title>Marvel Menu</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/icons/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body id="body">
-    
     <header class="header">
         <div class="container">
 
             <svg xmlns="http://www.w3.org/2000/svg" id="menu" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
-
+            
             <div class="sidenav">
                 <svg xmlns="http://www.w3.org/2000/svg" id="closeside" fill="currentColor" height="40px" viewBox="0 -960 960 960" width="40px" ><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg>
                 <nav class="sidenav_menu">
@@ -62,33 +60,34 @@
             </div>
         </div> 
     </header>
-    
+
     <main class="main_bg">
         <section>
-                <nav class="top_text">
+            <div class="top_text">
+                <nav>
                     <ul>
                         <li>
                             <a href="#" class="nav_text tab_1 tab_active">Your boosters</a>
                             <div class="content tab1">
                                 <h1 class="tab_title">Boosters</h1>
-                                    <div class="tabs_container">
-                                        <div class="inside_tab">
+                                <div class="tabs_container">
+                                    <div class="inside_tab">
                                         <a href="db-booster1.php"><img src="img/boosters/DB Booster 1.png" alt=""></a>
-                                        </div>
-                                        <div class="inside_tab">
-                                            <a href="db-booster2.php"><img src="img/boosters/DB Booster 2.png" alt=""></a>
-                                        </div>
-                                        <div class="inside_tab">
-                                            <a href="db-booster3.php"><img src="img/boosters/DB Booster 3.png" alt=""></a>
-                                        </div>
+                                    </div>
+                                    <div class="inside_tab">
+                                        <a href="db-booster2.php"><img src="img/boosters/DB Booster 2.png" alt=""></a>
+                                    </div>
+                                    <div class="inside_tab">
+                                        <a href="db-booster3.php"><img src="img/boosters/DB Booster 3.png" alt=""></a>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="cards.php" class="nav_text">every Cards</a>
-                            </li>
+                            </div>
+                        </li>
                         <li>
-                            <a href="cards.php" class="nav_text tab_2" >??</a>
+                            <a href="menu.php" class="nav_text">every Cards</a>
+                        </li>
+                        <li>
+                            <a href="menu.php" class="nav_text tab_2" >??</a>
                             <div class="content tab2">
                                 <h1 class="tab_title"></h1>
                                 <div class="tabs_container">
@@ -97,92 +96,34 @@
                         </li>
                     </ul>
                 </nav>
-        </section>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="img" src="img/swiper/dragon.jpg" alt=""></div>
             </div>
-            <div class="swiper-pagination"></div>
-                <div class="autoplay-progress">
-                <span></span>
-            </div>
-        </div>
-
-        <section class="container_filters">
-            <nav class="filters">
-                <ul>
-                    <li class="txt_filters" id="saiyan_tab">
-                        <p>Saiyan</p>
-                    </li>
-                    <li class="txt_filters" id="god_tab">
-                        <p>God</p>
-                    </li>
-                    <li class="txt_filters" id="human_tab">
-                        <p>Human</p>
-                    </li>
-                    <li class="txt_filters" id="android_tab">
-                        <p>Android</p>
-                    </li>
-                    <li>
-                        <form id="form_search">
-                            <input type="text" name="search" id="search" placeholder="Vegeta..."> 
-                        </form>
-                    </li>
-                    <li>
-                        <button id="reset_btn">reset</button>
-                    </li>
-                </ul>
-            </nav>
         </section>
 
-        <script>
-            //rechercher perso
-            window.onload = function () {
-                var searchCard = document.getElementById("search");
+        <section>
+            <div class="openbooster_container">
+                <img class="booster " src="img/boosters/DB Booster 1.png" alt="">
+            </div>
+        </section>
 
-                //prend valeur input (barre de recher) -> comparer infos avec les datas dans les cartes
-                if (searchCard) {
-                    searchCard.addEventListener("input", function () {
-                        var searchText = searchCard.value.toLowerCase();
-                        var insideCards = document.querySelectorAll(".card-container .card");
-
-                        insideCards.forEach(function (card) {
-                            var cardText = card.textContent.toLowerCase();
-
-                            //si info existe le montre si pas le cas cache
-                            if (cardText.includes(searchText)) {
-                                card.style.display = "";
-                            } else {
-                                card.style.display = "none";
-                            }
-                        });
-                    });
-                }
-            };  
-        </script>
-
-        <section class="card-container" >
+        <section class="container containerBottom"> <!-- booster -->
+            <div class="cards-booster boosternone">
             <script>
                 //recup personnages de l'api
-                async function fetchCharacters() {
-                   let response = await fetch('https://dragonball-api.com/api/characters?limit=58');
+                async function getRandom(count = 5) {
+                    const response = await fetch('https://dragonball-api.com/api/characters?limit=58');
                     const data = await response.json();
-                    return data['items'];
+                    const random = data.items;
+
+                    
+                    const randomCharacters = random.sort(() => Math.random() - Math.random()).slice(0, count);
+                    return randomCharacters;
                 }
 
                 //affichage infos perso dans les cartes
                 async function displayCharacters() {
-                    let data = await  fetchCharacters();
-                    let container = document.querySelector('.card-container');
-                    container.innerHTML = ''; //vide contenu du container
+                    let data = await  getRandom();
+                    let booster = document.querySelector('.cards-booster');
+                    booster.innerHTML = ''; //vide contenu du container
                     
                     //creer div pour chaque carte creer
                     data.forEach(character => {
@@ -197,31 +138,13 @@
                             <p>${character.race}</p>
                         `;
 
-                        // card.addEventListener('click', function () {
-                        //     let nWindow = document.createElement('window.open'('cards_description.php'));
-                        //     nWindow.document.body.innerHTML = `
-                        //         <img src="${character.image}" alt="${character.name}" />
-                        //         <p>${character.name}</p>
-                        //         <p>${character.ki}</p>
-                        //         <p>${character.maxKi}</p>
-                        //         <p>${character.race}</p>
-                        //         <p>${character.gender}</p>
-                        //         <p>${character.description}</p>
-                        //     `;
-                        // });
-
-                        // var myWindow = window.open("", "", "width=200,height=100");
-
-                        // //card.addEventListener('click', function () {
-                        //     //window.open('description.php');
-                        // //});
-
-                        container.appendChild(card);
+                        booster.appendChild(card);
                     });
                 }
 
                 window.addEventListener('DOMContentLoaded', displayCharacters);
             </script>
+            </div>
         </section>
 
         <div class="trade_container">
@@ -286,93 +209,7 @@
             </ul>
         </nav>        
     </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-        
-            //recup filtres
-            let btnSaiyan = document.getElementById("saiyan_tab");
-            let btnGods = document.getElementById("god_tab");
-            let btnHuman = document.getElementById("human_tab");
-            let btnAndroid = document.getElementById("android_tab");
-
-            //recup tte cartes
-            function getAllCards() {
-                return document.querySelectorAll(".card");
-            }
-
-            //afficher cartes d'une race
-            function showOnly(race) {
-                getAllCards().forEach(card => {
-                    if (card.classList.contains(race)) {
-                        card.style.display = "";
-                    } else {
-                        card.style.display = "none";
-                    }
-                });
-            }
-
-            //1 filtre => 1 race 
-            btnSaiyan.addEventListener("click", function () {
-            showOnly("Saiyan");
-            });
-
-            btnGods.addEventListener('click', function(){
-                showOnly('God');
-            })
-
-            btnHuman.addEventListener('click', function(){
-                showOnly('Human');
-            })
-
-            btnAndroid.addEventListener('click', function(){
-                showOnly('Android');
-            })
-        });
-
-        //fonction afficher cartes
-        function showAllCards() {
-            document.querySelectorAll(".card").forEach(card => {
-                card.style.display = "";
-            });
-        }
-
-        //reset affichage carte
-        let resetButton = document.getElementById("reset_btn");
-        resetButton.addEventListener("click", function () {
-            showAllCards();
-
-            //vide bare recherche
-            document.getElementById("search").value = "";
-        });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const progressCircle = document.querySelector(".autoplay-progress svg");
-        const progressContent = document.querySelector(".autoplay-progress span");
-        var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        },
-        on: {
-            autoplayTimeLeft(s, time, progress) {
-            progressCircle.style.setProperty("--progress", 1 - progress);
-            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
-            }
-        }
-        });
-    </script>
-    <script src="js/cards.js"></script>
+    
+    <script src="js/booster.js"></script>
 </body>
 </html>
