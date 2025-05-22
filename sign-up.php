@@ -60,5 +60,6 @@ if($_POST){
     </section>
     
     <script src="js/form.js"></script>
+    <script src="js/localstorage.js"></script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+.cardDescription {
+    justify-content: center;
+    display: flex;
+    background-image: url(../img/backgrounds/img.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+}
+
+.cardDescription img {
+    height: 90%;
+    object-fit: contain;
+    display: block;
+    margin: 1rem;
+}
+
+.desc {
+    background-color: #ffffff5e;
+    border-radius: 35px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    margin: 1rem;
+    width: 90%;
+    height: 37.85rem;
+}
+
+.cardDescription h1 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.cardDescription h2 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.cardDescription h3 {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.cardDescription p {
+    margin-top: -0.5rem;
+    font-size: 1.2rem;
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+}

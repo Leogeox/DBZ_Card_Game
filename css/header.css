@@ -9,6 +9,7 @@
     --dark-red : rgb(232, 40, 40);
     --blue : rgb(39, 39, 191);
     --dark-blue : rgb(28, 28, 135);
+    --lightlight-grey : rgba(230, 230, 230, 0.245) ;
 }
 
 .header {
@@ -79,7 +80,7 @@
     left: 0px;
     height: 100%;
     width: 60px;
-    z-index: 1;
+    z-index: 99;
     background-color: var(--dark-orange);
     transition: 0.3s;
 } 
@@ -171,7 +172,7 @@
     width: 100%;
     height: 50%;
     left: 0;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     align-items: center;
     transition: 0.3s;
     z-index: 2;

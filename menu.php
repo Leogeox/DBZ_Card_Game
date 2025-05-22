@@ -40,10 +40,10 @@
             <nav class="account_container">
                 <ul>
                     <li>
-                        <a href="log-in.php"><svg xmlns="http://www.w3.org/2000/svg" class="size_icon" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M226-262q59-42.33 121.33-65.5 62.34-23.17 132.67-23.17 70.33 0 133 23.17T734.67-262q41-49.67 59.83-103.67T813.33-480q0-141-96.16-237.17Q621-813.33 480-813.33t-237.17 96.16Q146.67-621 146.67-480q0 60.33 19.16 114.33Q185-311.67 226-262Zm253.88-184.67q-58.21 0-98.05-39.95Q342-526.58 342-584.79t39.96-98.04q39.95-39.84 98.16-39.84 58.21 0 98.05 39.96Q618-642.75 618-584.54t-39.96 98.04q-39.95 39.83-98.16 39.83ZM480.31-80q-82.64 0-155.64-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.51T80-480.18q0-82.82 31.5-155.49 31.5-72.66 85.83-127Q251.67-817 324.51-848.5T480.18-880q82.82 0 155.49 31.5 72.66 31.5 127 85.83Q817-708.33 848.5-635.65 880-562.96 880-480.31q0 82.64-31.5 155.64-31.5 73-85.83 127.34Q708.33-143 635.65-111.5 562.96-80 480.31-80Zm-.31-66.67q54.33 0 105-15.83t97.67-52.17q-47-33.66-98-51.5Q533.67-284 480-284t-104.67 17.83q-51 17.84-98 51.5 47 36.34 97.67 52.17 50.67 15.83 105 15.83Zm0-366.66q31.33 0 51.33-20t20-51.34q0-31.33-20-51.33T480-656q-31.33 0-51.33 20t-20 51.33q0 31.34 20 51.34 20 20 51.33 20Zm0-71.34Zm0 369.34Z"/></svg></a>
+                        <a href="login.php"><svg xmlns="http://www.w3.org/2000/svg" class="size_icon" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M226-262q59-42.33 121.33-65.5 62.34-23.17 132.67-23.17 70.33 0 133 23.17T734.67-262q41-49.67 59.83-103.67T813.33-480q0-141-96.16-237.17Q621-813.33 480-813.33t-237.17 96.16Q146.67-621 146.67-480q0 60.33 19.16 114.33Q185-311.67 226-262Zm253.88-184.67q-58.21 0-98.05-39.95Q342-526.58 342-584.79t39.96-98.04q39.95-39.84 98.16-39.84 58.21 0 98.05 39.96Q618-642.75 618-584.54t-39.96 98.04q-39.95 39.83-98.16 39.83ZM480.31-80q-82.64 0-155.64-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.51T80-480.18q0-82.82 31.5-155.49 31.5-72.66 85.83-127Q251.67-817 324.51-848.5T480.18-880q82.82 0 155.49 31.5 72.66 31.5 127 85.83Q817-708.33 848.5-635.65 880-562.96 880-480.31q0 82.64-31.5 155.64-31.5 73-85.83 127.34Q708.33-143 635.65-111.5 562.96-80 480.31-80Zm-.31-66.67q54.33 0 105-15.83t97.67-52.17q-47-33.66-98-51.5Q533.67-284 480-284t-104.67 17.83q-51 17.84-98 51.5 47 36.34 97.67 52.17 50.67 15.83 105 15.83Zm0-366.66q31.33 0 51.33-20t20-51.34q0-31.33-20-51.33T480-656q-31.33 0-51.33 20t-20 51.33q0 31.34 20 51.34 20 20 51.33 20Zm0-71.34Zm0 369.34Z"/></svg></a>
                     </li>
                     <li class="header_account">
-                        <a href="log-in.php">Log In | Sign Up</a>
+                        <a href="login.php">Log In | Sign Up</a>
                     </li>
                 </ul>
             </nav>
@@ -65,38 +65,35 @@
     
     <main class="main_bg">
         <section>
-                <nav class="top_text">
-                    <ul>
-                        <li>
-                            <a href="#" class="nav_text tab_1 tab_active">Your boosters</a>
-                            <div class="content tab1">
-                                <h1 class="tab_title">Boosters</h1>
-                                    <div class="tabs_container">
-                                        <div class="inside_tab">
-                                        <a href="db-booster1.php"><img src="img/boosters/DB Booster 1.png" alt=""></a>
-                                        </div>
-                                        <div class="inside_tab">
-                                            <a href="db-booster2.php"><img src="img/boosters/DB Booster 2.png" alt=""></a>
-                                        </div>
-                                        <div class="inside_tab">
-                                            <a href="db-booster3.php"><img src="img/boosters/DB Booster 3.png" alt=""></a>
-                                        </div>
-                                    </div>
+            <nav class="top_text">
+                <ul>
+                    <li>
+                        <a href="#" class="nav_text tab_1 tab_active">Your boosters</a>
+                        <div class="content tab1">
+                            <h1 class="tab_title">Boosters</h1>
+                            <div class="tabs_container">
+                                <div class="inside_tab">
+                                    <a href="db-booster1.php"><img src="img/boosters/DB Booster 1.png" alt=""></a>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="cards.php" class="nav_text">every Cards</a>
-                            </li>
-                        <li>
-                            <a href="cards.php" class="nav_text tab_2" >??</a>
-                            <div class="content tab2">
-                                <h1 class="tab_title"></h1>
-                                <div class="tabs_container">
-                                </div>
+                            <div class="inside_tab">
+                                <a href="db-booster2.php"><img src="img/boosters/DB Booster 2.png" alt=""></a>
                             </div>
-                        </li>
-                    </ul>
-                </nav>
+                            <div class="inside_tab">
+                                <a href="db-booster3.php"><img src="img/boosters/DB Booster 3.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                        
+                    <li>
+                        <a href="cards.php" class="nav_text tab_2" >??</a>
+                        <div class="content tab2">
+                            <h1 class="tab_title"></h1>
+                            <div class="tabs_container">
+                            </div>
+                        </div>
+                    </li>  
+                </ul>
+            </nav>
         </section>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -187,34 +184,23 @@
                     //creer div pour chaque carte creer
                     data.forEach(character => {
                         let card = document.createElement('div')
-                        card.classList.add('fav', 'card', character.race.replace(/\s+/g, ''));
+                        card.classList.add('card', character.race.replace(/\s+/g, ''));
 
                         //contenu de la carte (data)
                         card.innerHTML = `
-                            <img src="${character.image}" alt="${character.name}" />
-                            <p>${character.name}</p>
-                            <p>${character.ki}</p>
-                            <p>${character.race}</p>
+                            <img class="cardsImg" src="${character.image}" alt="${character.name}" />
+                            <h2>${character.name}</h2>
+                            <h5>${character.race}</h5>
+                            <h5>${character.affiliation}</h5>
+                            <div class="powerContainer">
+                                <h4>Power: ${character.ki}</h4>
+                            </div>
                         `;
-
-                        // card.addEventListener('click', function () {
-                        //     let nWindow = document.createElement('window.open'('cards_description.php'));
-                        //     nWindow.document.body.innerHTML = `
-                        //         <img src="${character.image}" alt="${character.name}" />
-                        //         <p>${character.name}</p>
-                        //         <p>${character.ki}</p>
-                        //         <p>${character.maxKi}</p>
-                        //         <p>${character.race}</p>
-                        //         <p>${character.gender}</p>
-                        //         <p>${character.description}</p>
-                        //     `;
-                        // });
-
-                        // var myWindow = window.open("", "", "width=200,height=100");
-
-                        // //card.addEventListener('click', function () {
-                        //     //window.open('description.php');
-                        // //});
+                        
+                        card.addEventListener('click', function () {
+                            let url = `card.php?id=${character.id}`;
+                            window.open(url);
+                        });
 
                         container.appendChild(card);
                     });
@@ -348,29 +334,17 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const progressCircle = document.querySelector(".autoplay-progress svg");
-        const progressContent = document.querySelector(".autoplay-progress span");
         var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        },
-        on: {
-            autoplayTimeLeft(s, time, progress) {
-            progressCircle.style.setProperty("--progress", 1 - progress);
-            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
             }
-        }
         });
     </script>
     <script src="js/cards.js"></script>

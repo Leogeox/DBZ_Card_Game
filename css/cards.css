@@ -6,9 +6,11 @@
 .filters {
     background-color: var(--blue);
     margin: 1rem;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 78%;
     transition: 0.3s;
+    margin-bottom: 2rem;
+    padding: 0.3rem;
 }
 
 .txt_filters {
@@ -87,14 +89,15 @@
 .card {
     text-align: center;
     width: 285px;
-    height: 395px;
-    margin: 40px;
-    border-radius: 0.5rem;
-    background-color: rgb(37, 45, 159);
+    margin: 28px;
+    border-radius: 30px;
+    background-image: url(../img/backgrounds/2.png);
+    background-size: cover;
     transition: 0.3s;
     animation-duration: 2s;
     animation-name: pop-up;
-} 
+    border: 8px solid var(--white);
+}
 
 
 .card:hover {
@@ -103,49 +106,99 @@
     transition: 0.3s;
 }
 
-.card img {
-    width: 265px;
-    height: 325px;
+.cardsImg{
+    width: 250px;
+    height: 310px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
     margin-top: 0.5rem;
     border-radius: 5px;
     padding-bottom: 1rem;
+    padding: 1rem;
 }
 
-.card p {
+.card h2 {
     color: var(--white);
-    width: 93%;
-    height: 17.5px;
-    margin-left: 0.65rem;
-    font: 500 15px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    background-color: rgb(233, 135, 6, 1);
+    padding: 0.4rem;
+    width: 80%;
+    clip-path: polygon(6% 0, 95% 0, 100% 50%, 95% 100%, 6% 100%, 0% 50%);
+    margin: 1rem;
+    font: 600 28px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    margin-top: -6rem;
+    position: relative;
+    margin-left: 1.5rem;
+    font-style: italic;
+}
+
+.powerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.card h4 {
+    background-color: rgb(233, 135, 6, 1);;
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 75%, 95% 100%, 5% 100%, 0 75%, 0% 30%);
+    color: var(--white);
+    text-align: center;
+    padding: 0.49rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    font: 500 20px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+
+.card h5 {
+    position: relative;
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.832);
+    backdrop-filter: blur(5px);
+    width: 80%;
+    color: var(--white);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    z-index: 1;
+    height: 25.5px;
+    font: 500 18px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .fav {
-    background-image: url('../img/icons/fav.png');
-    cursor: pointer;
     transition: 0.3s;
-    z-index: 2;
-    float: right;
+    width: 3%;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.3s;
+    animation-duration: 2s;
+    animation-name: pop-up;
+    margin-left: -6rem;
+    margin-top: 29rem;
 }
 
 .fav:hover {
-    transform: scale(1.);
-    transition: 0.3s;
+    transform: scale(1.15);
 }
 
 .favfull {
-    background-image: url(img/full\ fav.png);
-    width: 10%;
-    cursor: pointer;
     transition: 0.3s;
-    position: fixed;
+    width: 3%;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.3s;
+    animation-duration: 2s;
+    animation-name: pop-up;
+    margin-left: -6rem;
+    margin-top: 29rem;
 }
 
 .favfull:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+    transform: scale(1.15);
 }
 
 .favnone {
@@ -155,3 +208,4 @@
 .filternone {
     display: none;
 }
+

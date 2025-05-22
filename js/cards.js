@@ -81,21 +81,21 @@ reset_btn.addEventListener('click', function() {
 });
 
 
-//mettre carte en favoris (appuie coeur rempli et inversement)
 let favs = document.querySelectorAll('.fav')
 let favfulls = document.querySelectorAll('.favfull')
 
 favs.forEach((fav, index) => {
-    fav.addEventListener('click', function() {
-        fav.classList.add('favnone')
-        favfulls[index].classList.remove('favnone')
-        favfulls[index].addEventListener('click', function() {
-            fav.classList.remove('favnone')
-            favfulls[index].classList.add('favnone')
+    favfulls.forEach(favfull => {
+        fav.addEventListener('click', function() {
+            fav.classList.add('favnone')
+            favfull.classList.remove('favnone')
+            favfull.addEventListener('click', function() {
+                fav.classList.remove('favnone')
+                favfull.classList.add('favnone')
+            })
         })
-    })
+    })    
 })
-
 
 
 

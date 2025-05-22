@@ -94,3 +94,24 @@
     color: var(--white);
     transition: 0.3s;
 }
+
+.darkmode .btnB1 {
+    background-color: rgb(98, 10, 33);
+    transition: 0.3s;
+}
+
+.darkmode .btnB2 {
+    background-color: rgb(151, 0, 26);
+    transition: 0.3s;
+}
+
+.darkmode .btnB3 {
+    background-color: rgb(13, 130, 52);
+    transition: 0.3s;
+}
+
+.darkmode .profilEmail {
+    background-color: rgba(0, 0, 0, 0.651);
+    color: var(--white);
+    transition: 0.3s;
+}

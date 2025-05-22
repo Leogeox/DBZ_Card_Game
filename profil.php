@@ -11,7 +11,7 @@ if(!isset($_SESSION["iduser"])) {
 if(isset($_GET["action"]) && $_GET["action"] == "deconnexion") {
     unset($_SESSION["iduser"]);
     unset($_SESSION["email"]);
-    header("location:log-in.php"); // redirection login
+    header("location:login.php"); // redirection login
 }
 
 ?>
@@ -29,7 +29,7 @@ if(isset($_GET["action"]) && $_GET["action"] == "deconnexion") {
 
 <body class=background id="body">
 
-<header class="header">
+    <header class="header">
         <div class="container">
 
             <svg xmlns="http://www.w3.org/2000/svg" id="menu" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
@@ -37,10 +37,10 @@ if(isset($_GET["action"]) && $_GET["action"] == "deconnexion") {
             <nav class="account_container">
                 <ul>
                     <li>
-                        <a href="log-in.php"><svg xmlns="http://www.w3.org/2000/svg" class="size_icon" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M226-262q59-42.33 121.33-65.5 62.34-23.17 132.67-23.17 70.33 0 133 23.17T734.67-262q41-49.67 59.83-103.67T813.33-480q0-141-96.16-237.17Q621-813.33 480-813.33t-237.17 96.16Q146.67-621 146.67-480q0 60.33 19.16 114.33Q185-311.67 226-262Zm253.88-184.67q-58.21 0-98.05-39.95Q342-526.58 342-584.79t39.96-98.04q39.95-39.84 98.16-39.84 58.21 0 98.05 39.96Q618-642.75 618-584.54t-39.96 98.04q-39.95 39.83-98.16 39.83ZM480.31-80q-82.64 0-155.64-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.51T80-480.18q0-82.82 31.5-155.49 31.5-72.66 85.83-127Q251.67-817 324.51-848.5T480.18-880q82.82 0 155.49 31.5 72.66 31.5 127 85.83Q817-708.33 848.5-635.65 880-562.96 880-480.31q0 82.64-31.5 155.64-31.5 73-85.83 127.34Q708.33-143 635.65-111.5 562.96-80 480.31-80Zm-.31-66.67q54.33 0 105-15.83t97.67-52.17q-47-33.66-98-51.5Q533.67-284 480-284t-104.67 17.83q-51 17.84-98 51.5 47 36.34 97.67 52.17 50.67 15.83 105 15.83Zm0-366.66q31.33 0 51.33-20t20-51.34q0-31.33-20-51.33T480-656q-31.33 0-51.33 20t-20 51.33q0 31.34 20 51.34 20 20 51.33 20Zm0-71.34Zm0 369.34Z"/></svg></a>
+                        <a href="login.php"><svg xmlns="http://www.w3.org/2000/svg" class="size_icon" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M226-262q59-42.33 121.33-65.5 62.34-23.17 132.67-23.17 70.33 0 133 23.17T734.67-262q41-49.67 59.83-103.67T813.33-480q0-141-96.16-237.17Q621-813.33 480-813.33t-237.17 96.16Q146.67-621 146.67-480q0 60.33 19.16 114.33Q185-311.67 226-262Zm253.88-184.67q-58.21 0-98.05-39.95Q342-526.58 342-584.79t39.96-98.04q39.95-39.84 98.16-39.84 58.21 0 98.05 39.96Q618-642.75 618-584.54t-39.96 98.04q-39.95 39.83-98.16 39.83ZM480.31-80q-82.64 0-155.64-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.51T80-480.18q0-82.82 31.5-155.49 31.5-72.66 85.83-127Q251.67-817 324.51-848.5T480.18-880q82.82 0 155.49 31.5 72.66 31.5 127 85.83Q817-708.33 848.5-635.65 880-562.96 880-480.31q0 82.64-31.5 155.64-31.5 73-85.83 127.34Q708.33-143 635.65-111.5 562.96-80 480.31-80Zm-.31-66.67q54.33 0 105-15.83t97.67-52.17q-47-33.66-98-51.5Q533.67-284 480-284t-104.67 17.83q-51 17.84-98 51.5 47 36.34 97.67 52.17 50.67 15.83 105 15.83Zm0-366.66q31.33 0 51.33-20t20-51.34q0-31.33-20-51.33T480-656q-31.33 0-51.33 20t-20 51.33q0 31.34 20 51.34 20 20 51.33 20Zm0-71.34Zm0 369.34Z"/></svg></a>
                     </li>
                     <li class="header_account">
-                        <a href="log-in.php">Log In | Sign Up</a>
+                        <a href="login.php">Log In | Sign Up</a>
                     </li>
                 </ul>
             </nav>
@@ -73,6 +73,38 @@ if(isset($_GET["action"]) && $_GET["action"] == "deconnexion") {
 
     <main>
         <section>
+            <nav class="top_text">
+                <ul>
+                    <li>
+                        <a href="#" class="nav_text tab_1 tab_active">Your boosters</a>
+                        <div class="content tab1">
+                            <h1 class="tab_title">Boosters</h1>
+                            <div class="tabs_container">
+                                <div class="inside_tab">
+                                    <a href="db-booster1.php"><img src="img/boosters/DB Booster 1.png" alt=""></a>
+                                </div>
+                            <div class="inside_tab">
+                                <a href="db-booster2.php"><img src="img/boosters/DB Booster 2.png" alt=""></a>
+                            </div>
+                            <div class="inside_tab">
+                                <a href="db-booster3.php"><img src="img/boosters/DB Booster 3.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                        
+                    <li>
+                        <a href="cards.php" class="nav_text tab_2" >??</a>
+                        <div class="content tab2">
+                            <h1 class="tab_title"></h1>
+                            <div class="tabs_container">
+                            </div>
+                        </div>
+                    </li>  
+                </ul>
+            </nav>
+        </section>
+        
+        <section>
             <div class="profilName">
                 <?php
                     echo $_SESSION["name"];
@@ -89,11 +121,91 @@ if(isset($_GET["action"]) && $_GET["action"] == "deconnexion") {
             </div>
         </section>
 
+        <section class="profilInfos">
+            <h2 class="h2Infos">CARDS OWNED</h2>
+            <div class="cardsSection">
+                <?php
+                    // echo $_SESSION["cards"];
+                ?>
+                <p>Hello</p>
+                <!-- <script>
+                     favorite.innerHTML =  `
+                            <img class="fav" src="img/icons/fav.png" alt="">
+                            <img class="favfull favnone" src="img/icons/fullfav.png" alt="">
+                        `;
+                    container.appendChild(favorite);
+                </script> -->
+            </div>
+        </section>
+
         <div class="profilDeconnexion">
             <a href="?action=deconnexion">Se déconnecter</a>
+        </div>
+
+        <div class="trade_container">
+            <img class="trade" src="img/icons/trade.png" alt="Trading cards">
+        </div>
+
+        <div class="none_trade" id="interaction">
+            <h2 class="trade_title">Trade Center</h2>
+            <form class="interact_form" action="">
+                <h3> Would like to make trade with</h3>
+                <select name="friend" id="frient_select">
+                    <option value="">friend's username</option>
+                    <option value="dog">friend 1</option>
+                    <option value="cat">friend 2</option>
+                </select>
+                <h3>with</h3>
+                <select name="cardToGive" id="card_to_give">
+                    <option value="">your card's name</option>
+                    <option value="dog">Goku</option>
+                    <option value="cat">Vegeta</option>
+                    <option value="dog">Chichi</option>
+                    <option value="cat">Gohan</option>
+                </select>
+                <h3>for</h3>
+                <select name="cardToGet" id="card_to_get">
+                    <option value="">their card's name</option>
+                    <option value="dog">Goku</option>
+                    <option value="cat">Vegeta</option>
+                    <option value="dog">Chichi</option>
+                    <option value="cat">Gohan</option>
+                </select>
+            </form>
+            <button id="trade_finish">Send</button>
         </div>
         
     </main>
 
+    <footer>
+        <div class="footer_main">
+            <a href="menu.php"><img src="img/icons/logo.png" class="footer_logo" alt=""></a>
+        </div>
+
+        <nav class="footer_end">
+            <ul>
+                <li class="footer_text">
+                    Terms of Use
+                </li>
+                <li class="footer_text">
+                    Inetrest-Based Ads
+                </li>
+                <li class="footer_text">
+                    EU Privacy Rights
+                </li>
+                <li class="footer_text">
+                    Coockie Policy
+                </li>
+                <li class="footer_text">
+                    License Agreement
+                </li>
+                <li class="footer_text">
+                    ©2025 MARVELTCG
+                </li>
+            </ul>
+        </nav>        
+    </footer>
+
+    <script src="js/profil.js"></script>
 </body>
 </html>

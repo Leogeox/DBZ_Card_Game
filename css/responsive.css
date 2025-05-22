@@ -80,7 +80,7 @@
         display: block;
     }
 
-    .card img {
+    .cardsImg {
         width: 50px;
         height: 65px;
     }
@@ -238,7 +238,7 @@
         display: block;
     }
 
-    .card img {
+    .cardsImg {
         width: 50px;
         height: 55px;
     }
@@ -394,7 +394,7 @@
         display: block;
     }
 
-    .card img {
+    .cardsImg {
         width: 100px;
         height: 130px;
     }
@@ -541,7 +541,7 @@
         display: block;
     }
 
-    .card img {
+    .cardsImg {
         width: 130px;
         height: 150px;
     }
@@ -679,7 +679,7 @@
         display: block;
     }
 
-    .card img {
+    .cardsImg {
         width: 150px;
         height: 200px;
     }
@@ -810,7 +810,7 @@
         margin-top: 0.8rem;
     }
 
-    .card img {
+    .cardsImg {
         width: 170px;
         height: 205px;
     }
@@ -986,7 +986,7 @@
         font-size: 15px;
     }
 
-    .card img {
+    .cardsImg {
         width: 180px;
         height: 205px;
     }
@@ -1107,7 +1107,7 @@
         margin-bottom: 2.5rem ;
     }
 
-    .card img {
+    .cardsImg {
         height: 80%;
         margin-top: 1rem;
     }
@@ -1433,7 +1433,7 @@
     }
 
     .boostershow {
-        margin-top: -50.5rem;
+        margin-top: -52rem;
         display: flex;
         justify-content: center;
     }

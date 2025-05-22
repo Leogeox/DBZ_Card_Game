@@ -1,4 +1,3 @@
-let button = document.getElementById ('button');
 let body = document.getElementById ('body');
 let dmode = document.getElementById('dmode');
 
@@ -6,12 +5,12 @@ dmode.addEventListener('click', function(){
     body.classList.toggle('darkmode')
 });
 
-//systeme ouverture booster (non aleatoire)
-let booster = document.querySelector('.openbooster_container');
+//systeme ouverture booster
+let openBtn = document.querySelector('.openBtn');
 let cards = document.querySelectorAll('.boosternone');
 let closeb = document.querySelector('.closebooster');
 
-booster.addEventListener('click', function() {
+openBtn.addEventListener('click', function() {
     cards.forEach((card) => {
         card.classList.add('boostershow');
         card.classList.remove('boosternone');
@@ -30,7 +29,7 @@ let tabs = document.querySelectorAll('.nav_text');
 let divs = document.querySelectorAll('.content');
 
 tabs.forEach((tab) => {
-    tab.addEventListener('mouseover', function(){
+    tab.addEventListener('click', function(){
         tabs.forEach((tab) => {
             tab.classList.remove('tab_active')}) 
         this.classList.add('tab_active')
