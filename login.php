@@ -1,13 +1,13 @@
 <?php
-
+require_once("session.php");
 require_once("connexion.php");
 
 // si deja connecter diriger vers profil
 if(isset($_SESSION["iduser"])) {
-    header("location:profil.php");
+    header("Location: profil.php");
 }
 
-if ($_POST) {
+if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["password"])) {
 
     //enleve espace
     $name = trim($_POST["name"]);
@@ -25,7 +25,7 @@ if ($_POST) {
             $_SESSION["name"] = $user["name"];
             $_SESSION["email"] = $user["email"];
             $_SESSION["name"] = $user["name"];
-            header("location:profil.php"); //si existe diriger vers profil
+            header("Location: profil.php"); //si existe diriger vers profil
         } else {
             echo "La connexion a échoué !";
         }
@@ -39,8 +39,8 @@ if ($_POST) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Votre sélection de cartes Undertale favorites : suivez, admirez et complétez votre deck parfait.">
-    <title>Login</title>
+    <meta name="description" content="Votre sélection de cartes Dragonball favorites : suivez, admirez et complétez votre deck parfait.">
+    <title>DragonballTCG Login</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/icons/favicon.png">
 </head>
@@ -48,7 +48,7 @@ if ($_POST) {
 <body class=background id="body">
 
     <section class="connection">
-        <a href="menu.php"><img src="img/icons/logo.png" id="logo_account" alt="Icon du logo"></a>
+        <a href="index.php"><img src="img/icons/logo.png" id="logo_account" alt="Icon du logo"></a>
 
         <?php if (!isset($_SESSION["iduser"])) { ?>
         <form method="POST" id="form">

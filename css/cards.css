@@ -169,43 +169,4 @@
     text-align: center;
 }
 
-.fav {
-    transition: 0.3s;
-    width: 3%;
-    cursor: pointer;
-    position: absolute;
-    transition: 0.3s;
-    animation-duration: 2s;
-    animation-name: pop-up;
-    margin-left: -6rem;
-    margin-top: 29rem;
-}
-
-.fav:hover {
-    transform: scale(1.15);
-}
-
-.favfull {
-    transition: 0.3s;
-    width: 3%;
-    cursor: pointer;
-    position: absolute;
-    transition: 0.3s;
-    animation-duration: 2s;
-    animation-name: pop-up;
-    margin-left: -6rem;
-    margin-top: 29rem;
-}
-
-.favfull:hover {
-    transform: scale(1.15);
-}
-
-.favnone {
-    display: none;
-}
-
-.filternone {
-    display: none;
-}
 

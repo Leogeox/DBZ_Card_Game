@@ -1,5 +1,5 @@
 <?php
-
+require_once("session.php");
 require_once("connexion.php");
 
 if($_POST){
@@ -17,10 +17,9 @@ if($_POST){
         'email' => $email,
         'password' => password_hash($password, PASSWORD_DEFAULT)
     ]);
-    header("location:profil.php"); //redirige vers login
+    header("Location: profil.php"); //redirige vers login
     exit;
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -28,8 +27,8 @@ if($_POST){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Votre sélection de cartes Undertale favorites : suivez, admirez et complétez votre deck parfait.">
-    <title>Sign Up</title>
+    <meta name="description" content="Votre sélection de cartes Dragonball favorites : suivez, admirez et complétez votre deck parfait.">
+    <title>DragonballTCG Sign Up</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/icons/favicon.png">
 </head>
@@ -37,7 +36,7 @@ if($_POST){
 <body class="background" id="body">
 
     <section class="connection">
-        <a href="menu.php"><img src="img/icons/logo.png" id="logo_account" alt="Icon du logo"></a>
+        <a href="index.php"><img src="img/icons/logo.png" id="logo_account" alt="Icon du logo"></a>
     
         <div class="message-error">
             <ul> </ul>

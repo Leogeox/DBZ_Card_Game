@@ -3,6 +3,13 @@
     .header {
         height: 50px;
     }
+    
+    .profilEmail {
+        font-size: 0.2rem;
+        padding: 0.5rem;
+        width: 80%;
+        text-align: center;
+    }
 
     #logo {
         margin-right: 0rem;
@@ -163,6 +170,13 @@
         height: 50px;
     }
 
+    .profilEmail {
+        font-size: 0.35rem;
+        padding: 0.5rem;
+        width: 80%;
+        text-align: center;
+    }
+
     #logo {
         margin-right: 0rem;
         margin-left: 0rem;
@@ -318,6 +332,12 @@
         height: 60px;
     }
 
+    .profilEmail {
+        font-size: 0.55rem;
+        width: 80%;
+        text-align: center;
+    }
+
     #logo {
         margin-right: 0rem;
         margin-left: 0rem;
@@ -467,6 +487,11 @@
     
     .header {
         height: 90px;
+    }
+
+    .profilEmail {
+        font-size: 0.8rem;
+        width: 70%;
     }
 
     #logo {
@@ -620,6 +645,11 @@
         width: 110px;
     }
 
+    .profilEmail {
+        font-size: 1.2rem;
+        width: 70%;
+    }
+
     #menu {
         display: none;
     }
@@ -755,6 +785,11 @@
         width: 110px;
     }
 
+    .profilEmail {
+        font-size: 1.2rem;
+        width: 70%;
+    }
+
     #menu {
         display: none;
     }
@@ -882,6 +917,11 @@
         margin-right: 0rem;
         margin-top: 2rem;
         width: 130px;
+    }
+
+    .profilEmail {
+        font-size: 1.2rem;
+        width: 70%;
     }
 
     #menu {
@@ -1082,6 +1122,11 @@
     .inside_tab img {
         margin-top: 2rem;
         width: 7rem;
+    }
+
+    .profilEmail {
+        font-size: 1.2rem;
+        width: 70%;
     }
 
     .inside_tab p {

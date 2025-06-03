@@ -26,15 +26,19 @@
     display: none;
 }
 
+.cardsTop {
+    padding-top: -10rem;
+}
+
 .boostershow {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: -56rem;
     width: 100%;
     background-color: rgba(255, 254, 254, 0.479);
     transition: 0.3s;
-    z-index: 59; 
+    margin-top: -55.5rem;
+    z-index: 1; 
     backdrop-filter: blur(10px);
 }
 
@@ -53,6 +57,8 @@
     cursor: pointer;
     color: var(--white);
     transition: 0.5s;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .btnB1 {

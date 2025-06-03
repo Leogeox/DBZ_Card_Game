@@ -12,14 +12,14 @@ footer {
     height: 50%;
     width: 60%;
     margin: 3rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     margin-left: 5rem;
 }
 
 .footer_text {
     color: var(--white);
     margin-top: 9rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     transition: 0.3s;
     font: 400 13px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
 }

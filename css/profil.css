@@ -39,6 +39,7 @@
     font-size: 1rem;
     text-align: right;
     margin: 2rem;
+    margin-bottom: 0;
 }
 
 .titleProfil {
@@ -46,9 +47,54 @@
     margin-top: 7rem;;
 }
 
+.favContainer {
+    margin-top: 1rem;
+}
+
+.fav {
+    transition: 0.3s;
+    width: 14%;
+    cursor: pointer;
+    transition: 0.3s;
+    animation-duration: 2s;
+    animation-name: pop-up;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+}
+
+.fav:hover {
+    transform: scale(1.15);
+}
+
+.favfull {
+    transition: 0.3s;
+    width: 14%;
+    cursor: pointer;
+    transition: 0.3s;
+    animation-duration: 2s;
+    animation-name: pop-up;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+}
+
+.favfull:hover {
+    transform: scale(1.15);
+}
+
+.favnone {
+    display: none;
+}
+
+.filternone {
+    display: none;
+}
+
 .cardsSection {
     background-color: rgba(255, 145, 0, 0.719);
     margin-top: 1rem;
     width: 90%;
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
 }

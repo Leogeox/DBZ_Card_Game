@@ -2,10 +2,6 @@ let storageInput = document.querySelector('.enter');
 let storageEmail = document.getElementById('email');
 let storageName = document.getElementById('name');
 
-// localStorage.setItem("lastname", "Smith");
-// Retrieve
-// document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
-
 
 window.addEventListener('DOMContentLoaded', () => {
     // enregistre la value de l'input de l'email
