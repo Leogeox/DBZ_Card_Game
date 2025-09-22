@@ -6,7 +6,6 @@ This is a **dragon ball z's cards game** with a lot of features, and with a lot 
 Mostly constituing of **PHP**, **Js**, **HTML** and **CSS**.
 
 I really liked this project, even thougth it took a lot of my time having made three differents version on differents subjects. I wish to continue on working on this in my free time if i am able to
-
 <br>
 
 # PHP
@@ -28,6 +27,7 @@ I really liked this project, even thougth it took a lot of my time having made t
 - [X] Change of a theme
 - [ ] Searchbar
 - [ ] Favorite bouton
+
 - [ ] Trade of cards
 <br>
 
@@ -42,10 +42,12 @@ I really liked this project, even thougth it took a lot of my time having made t
 <br>
 
 # CSS
-- [X] Visual
+- [ ] Visual
   - colors
   - text's style
 - [X] Cards image
+- [ ] Deconnexion button
 - [X] Photoshop 
    - *Boosters cover*
    - *Caroussel image*
+
