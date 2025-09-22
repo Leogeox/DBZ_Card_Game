@@ -3,6 +3,8 @@
 This is a **dragon ball z's cards game** with a lot of features, and with a lot to come (hopefully)
 Mostly constituing of **PHP**, **Js**, **HTML** and **CSS**
 
+!alt dragon.jpg
+
 # PHP
 - [X] Sign in/ Log in page
 - [X] Profil picture
