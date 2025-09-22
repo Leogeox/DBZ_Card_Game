@@ -1,5 +1,5 @@
 # ABOUT THE PROJECT
-![What is this](img/swiper/dragon.jpg)
+![dragon ball](img/swiper/dragon.jpg)
 <br>
 
 This is a **dragon ball z's cards game** with a lot of features, and with a lot to come (hopefully)
