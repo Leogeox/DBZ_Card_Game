@@ -8,7 +8,7 @@ Mostly constituing of **PHP**, **Js**, **HTML** and **CSS**.
 Will try to continue on working on this in my free time if i am able to
 <br>
 
-# PHP
+## PHP
 - [X] Sign in/ Log in page
 - [X] Profil picture
 - [X] API
@@ -17,7 +17,7 @@ Will try to continue on working on this in my free time if i am able to
      - *And be able to modify it*
 <br>
 
-# JS
+## JS
 - [X] Animations (boutons..)
 - [ ] Redo cards' animation
 - [X] Open/close of a booster
@@ -31,7 +31,7 @@ Will try to continue on working on this in my free time if i am able to
 - [ ] Trade of cards
 <br>
 
-# HTML 
+## HTML 
 - [X] Every web pages
       - *Text*
       - *Image*
@@ -41,7 +41,7 @@ Will try to continue on working on this in my free time if i am able to
 - [ ] Background image of profil
 <br>
 
-# CSS
+## CSS
 - [ ] Visual
   - colors
   - text's style
