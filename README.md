@@ -1,7 +1,8 @@
 # Dragon Ball Card Game
-![dragon ball](img/swiper/dragon.jpg)
+<img width="1900" height="917" alt="Screenshot 2025-12-11 154811" src="https://github.com/user-attachments/assets/a1f548f4-9a41-4d6e-b38b-e0452e704425" />
+<br>
 DB Card Game is a Dragon Ball Z-themed card game with a variety of features. 
-The project is built mainly using **PHP**, **SQL**, **JavaScript**, **HTML**, and **CSS**. Development will continue whenever time permits.
+The project is built mainly using PHP, SQL, JavaScript, HTML, and CSS. Development will continue whenever time permits.
 
 Will try to continue on working on this in my free time if i am able to
 
@@ -12,8 +13,11 @@ This project was developed entirely by myself, from wireframing and mockups to v
 
 ## Installation & Start
 
-- Download the project folder.
-- Launch it using Go Live (VS Code extension) or any local development server.
+- Download the project folder or use
+``` php
+git clone https://github.com/LeoVigin/dbz-cardgame.git
+```
+- Launch it using any local development server.
 - Create/Log in and start playing.
 
 ## Features
